@@ -1,0 +1,59 @@
+[
+  {
+    "category_id": 1,
+    "name": "Thiết bị công nghệ & Máy tính",
+    "name_locale": "Thiết bị công nghệ & Máy tính",
+    "parent_id": null,
+    "image": "https://storage.googleapis.com/omisell-cloud/category/tech.png",
+    "is_active": true
+  },
+  {
+    "category_id": 11,
+    "name": "Máy tính đồng bộ",
+    "name_locale": "Máy tính đồng bộ",
+    "parent_id": 1,
+    "image": null,
+    "is_active": true
+  },
+  {
+    "category_id": 2,
+    "name": "Thực phẩm & Đồ uống",
+    "name_locale": "Thực phẩm & Đồ uống",
+    "parent_id": null,
+    "image": "https://storage.googleapis.com/omisell-cloud/category/food.png",
+    "is_active": true
+  },
+  {
+    "category_id": 21,
+    "name": "Bánh kẹo & Hạt dinh dưỡng",
+    "name_locale": "Bánh kẹo & Hạt dinh dưỡng",
+    "parent_id": 2,
+    "image": null,
+    "is_active": true
+  },
+  {
+    "category_id": 22,
+    "name": "Trà, Cà phê & Bột dinh dưỡng",
+    "name_locale": "Trà, Cà phê & Bột dinh dưỡng",
+    "parent_id": 2,
+    "image": null,
+    "is_active": true
+  },
+  {
+    "category_id": 3,
+    "name": "Chăm sóc da & Làm đẹp",
+    "name_locale": "Chăm sóc da & Làm đẹp",
+    "parent_id": null,
+    "image": "https://storage.googleapis.com/omisell-cloud/category/cosmetics.png",
+    "is_active": true
+  },
+  {
+    "category_id": 4,
+    "name": "Dịch vụ & Phụ phí tài chính",
+    "name_locale": "Dịch vụ & Phụ phí tài chính",
+    "parent_id": null,
+    "image": null,
+    "is_active": true
+  }
+]
+

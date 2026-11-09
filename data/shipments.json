@@ -1,0 +1,122 @@
+{
+  "list": [
+    {
+      "order_number": "DH-0001",
+      "omisell_order_number": "ODVN260805F24CA2C0",
+      "omisell_shipment_number": "SPVN260728600605E9",
+      "wms_order_number": "WMS-0001-A",
+      "courier_tracking_number": "585245841906959599",
+      "created_time": 1785226453,
+      "updated_time": 1785303324,
+      "status_id": 400,
+      "status_name": "Đang giao hàng",
+      "is_fulfilled": true
+    },
+    {
+      "order_number": "ORD-TEST-REAL-001",
+      "omisell_order_number": "ODVN2608REAL001",
+      "omisell_shipment_number": "SPVN26072765FE9839",
+      "wms_order_number": "WMS-0002-B",
+      "courier_tracking_number": "527004256043107",
+      "created_time": 1785134488,
+      "updated_time": 1785134498,
+      "status_id": 200,
+      "status_name": "Chờ đóng gói",
+      "is_fulfilled": false
+    },
+    {
+      "order_number": "DH-COD-01",
+      "omisell_order_number": "ODVN2608COD01",
+      "omisell_shipment_number": "SPVN2608COD001",
+      "wms_order_number": "WMS-0003-C",
+      "courier_tracking_number": "GHTK123456789VN",
+      "created_time": 1785226453,
+      "updated_time": 1785303324,
+      "status_id": 300,
+      "status_name": "Sẵn sàng giao",
+      "is_fulfilled": false
+    }
+  ],
+  "sample_detail": {
+    "order_number": "DH-0001",
+    "omisell_order_number": "ODVN260805F24CA2C0",
+    "omisell_shipment_number": "SPVN260728600605E9",
+    "wms_order_number": "WMS-0001-A",
+    "courier_tracking_number": "585245841906959599",
+    "created_time": 1785226453,
+    "updated_time": 1785303324,
+    "fulfilled_time": 1785233156,
+    "sla_time": 1785310000,
+    "shipped_time": 1785240000,
+    "delivered_time": 0,
+    "cod_amount": 0.0,
+    "total_amount": 15032000.0,
+    "currency": "VND",
+    "weight": 5050,
+    "volume": "40x20x35",
+    "fail_reason": "",
+    "shipment_note": "Giao giờ hành chính, gọi trước khi giao",
+    "fulfillment_by": "Tự đóng gói",
+    "cross_check_by": {
+      "id": 421,
+      "name": "ZAAQ",
+      "logo": "https://storage.googleapis.com/omisell-cloud/logo/courier/custom_carrier.svg"
+    },
+    "status_id": 400,
+    "status_name": "Đang giao hàng",
+    "is_fulfilled": true,
+    "courier": {
+      "name": "Tự vận chuyển",
+      "service_code": "OMI_SD",
+      "service_name": "Dịch vụ tiêu chuẩn"
+    },
+    "pickup": {
+      "id": 21,
+      "pickup_code": "PK100021",
+      "pickup_name": "Kho Tong Ho Chi Minh",
+      "address": "123 Le Loi, Quan 1"
+    },
+    "receiver": {
+      "fullname": "Nguyen Van A",
+      "phone": "0900000000",
+      "email": "buyer@example.com",
+      "address": "123 Le Loi, Quan 1",
+      "subdistrict_name": "Bến Nghé",
+      "subdistrict_id": 1,
+      "district_name": "Quận 1",
+      "district_id": 1,
+      "province_name": "TP. Hồ Chí Minh",
+      "province_id": 466617,
+      "country": "VN"
+    },
+    "items": [
+      {
+        "catalogue_sku": "DELL-V3020",
+        "inventory_sku": "DELL-V3020",
+        "esku": "DELL-V3020",
+        "product_name": "Máy tính Dell Vostro 3020",
+        "unit_name": "Đơn vị",
+        "quantity": 1,
+        "sale_price": 15000000.0,
+        "vendor_pickup_id": "21",
+        "vendor_pickup_code": "PK100021",
+        "vendor_name": "Trung Nguyen Corp",
+        "vendor_id": 27001999
+      },
+      {
+        "catalogue_sku": "MATCHA01",
+        "inventory_sku": "MATCHA01",
+        "esku": "MATCHA01",
+        "product_name": "Bột matcha Nhật Bản 50g",
+        "unit_name": "Đơn vị",
+        "quantity": 2,
+        "sale_price": 1000.0,
+        "vendor_pickup_id": "21",
+        "vendor_pickup_code": "PK100021",
+        "vendor_name": "Trung Nguyen Corp",
+        "vendor_id": 27001999
+      }
+    ],
+    "shipping_label_url": "https://storage.googleapis.com/omisell-cloud/labels/SPVN260728600605E9.pdf"
+  }
+}

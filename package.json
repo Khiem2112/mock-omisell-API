@@ -1,0 +1,22 @@
+{
+  "name": "mock-omisell-hono",
+  "version": "1.0.0",
+  "description": "Omisell API v2 Mock Server built with Hono for Odoo ORIS Hub integration",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "test": "tsx test/test_api.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

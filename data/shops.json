@@ -1,0 +1,148 @@
+{
+  "shops": [
+    {
+      "business_id": 386,
+      "country": "VN",
+      "group_id": 2,
+      "id": 11311,
+      "name": "Trung Nguyen E-Store",
+      "platform": "shopee",
+      "platform_logo": "https://storage.googleapis.com/omisell-cloud/logo/platforms/shopee.png",
+      "platform_label": "Shopee",
+      "user_id": 1,
+      "external_id": "70280",
+      "external_channel_id": "7495909798223317571",
+      "use_fulfillment_provider": "merchant",
+      "status": "active"
+    },
+    {
+      "business_id": 386,
+      "country": "VN",
+      "group_id": 2,
+      "id": 11303,
+      "name": "Trung Nguyen Official TikTok Shop",
+      "platform": "tiktok",
+      "platform_logo": "https://storage.googleapis.com/omisell-cloud/logo/platforms/tiktok.png",
+      "platform_label": "Tiktok Shop",
+      "user_id": 1,
+      "external_id": "70281",
+      "external_channel_id": "7495909798223317572",
+      "use_fulfillment_provider": "merchant",
+      "status": "active"
+    }
+  ],
+  "pickups": [
+    {
+      "id": 21,
+      "user_id": 1,
+      "country": "VN",
+      "business_id": 386,
+      "pickup_code": "PK100021",
+      "pickup_name": "Kho Tong Ho Chi Minh",
+      "address": "123 Le Loi, Quan 1",
+      "province": "TP. Ho Chi Minh",
+      "province_id": 466617,
+      "district": "Quan 1",
+      "district_id": 1,
+      "subdistrict_name": "Ben Nghe",
+      "subdistrict_id": 1,
+      "phone": "0900000000",
+      "is_default": true
+    }
+  ],
+  "wms_pickups": [
+    {
+      "id": 1,
+      "pickup_id": 21,
+      "pickup_code": "PK100021",
+      "wms_warehouse_code": "WH-HCM-MAIN",
+      "wms_warehouse_name": "WMS HCM Kho Tong"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "code": "VN",
+      "name": "Vietnam",
+      "phone_code": "+84",
+      "currency": "VND"
+    },
+    {
+      "id": 2,
+      "code": "TH",
+      "name": "Thailand",
+      "phone_code": "+66",
+      "currency": "THB"
+    }
+  ],
+  "provinces": [
+    {
+      "id": 466617,
+      "country_id": 1,
+      "code": "79",
+      "name": "TP. Hồ Chí Minh"
+    },
+    {
+      "id": 466618,
+      "country_id": 1,
+      "code": "01",
+      "name": "Hà Nội"
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "province_id": 466617,
+      "code": "760",
+      "name": "Quận 1"
+    },
+    {
+      "id": 5,
+      "province_id": 466617,
+      "code": "764",
+      "name": "Quận 5"
+    },
+    {
+      "id": 6,
+      "province_id": 466617,
+      "code": "766",
+      "name": "Tân Bình"
+    }
+  ],
+  "subdistricts": [
+    {
+      "id": 1,
+      "district_id": 1,
+      "code": "26734",
+      "name": "Bến Nghé"
+    },
+    {
+      "id": 2,
+      "district_id": 1,
+      "code": "26737",
+      "name": "Bến Thành"
+    },
+    {
+      "id": 10,
+      "district_id": 5,
+      "code": "26881",
+      "name": "Phường 1"
+    },
+    {
+      "id": 13,
+      "district_id": 6,
+      "code": "26900",
+      "name": "Phường 13"
+    }
+  ],
+  "partners": [
+    {
+      "seller_id": 27001999,
+      "email": "csi@abc.com",
+      "phone": "0900000000",
+      "last_login": "2026-07-03T08:29:20.853276Z",
+      "date_joined": "2024-03-15T04:45:09.032874Z",
+      "avatar": "https://storage.googleapis.com/omisell-cloud/avatar/seller_default.png"
+    }
+  ]
+}
