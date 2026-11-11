@@ -90,4 +90,4 @@ app.onError((err, c) => {
   return sendError(c, err.message || 'Internal server error', 500)
 })
 
-export default app
+

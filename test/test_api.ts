@@ -1,4 +1,4 @@
-import app from '../src/app'
+import { app } from '../src/app'
 
 async function runTests() {
   console.log('Bat dau kiem tra toan dien he thong Omisell Mock Server theo chuan OpenAPI...')
